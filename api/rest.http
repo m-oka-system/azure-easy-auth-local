@@ -1,0 +1,10 @@
+POST http://localhost:3100/hello HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+name=John
+
+###
+GET http://localhost:3100/api HTTP/1.1
+
+###
+GET http://webapp-studyca55000.azurewebsites.net/api HTTP/1.1
